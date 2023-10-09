@@ -20,7 +20,7 @@ public class PrincipalActivity extends AppCompatActivity {
 
     Spinner splista;
     ImageView ivimagen;
-    List<String> Milista = new ArrayList<>(Arrays.asList("","Durango", "Jalisco", "Nayarit", "Zacatecas", "Puebla"));
+    List<String> Milista = new ArrayList<>(Arrays.asList("","Durango", "Jalisco", "Nayarit", "Zacatecas", "Puebla","Estado de Mexico", "Aguascalientes", "Baja california sur", "Baja California Norte", "Campeche", "Chiapas", "Chihuaha", "Ciudad de Mexico", "Coahuila", "Colima", "Guanajuato", "Guerrero", "Hidalgo", "Michoacan", "Morelos", "Nuevo Leon", "Oaxaca", "Queretaro", "Quintana roo", "San luis Potosi", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatan"));
     ArrayAdapter<String> adaptador;
 
     @Override
@@ -29,7 +29,7 @@ public class PrincipalActivity extends AppCompatActivity {
         setContentView(R.layout.activity_principal);
 
         splista = findViewById(R.id.splista);
-        Milista.add("Estado de Mexico");
+        //Milista.add("Estado de Mexico");
 
         ivimagen = findViewById(R.id.ivimagen);
 
@@ -60,6 +60,84 @@ public class PrincipalActivity extends AppCompatActivity {
                 } else if (i == 6) {
                     Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
                     Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1fkGoUX4KLY3IfuwXCFkygiiULW6wsaCr").into(ivimagen);
+                } else if (i == 7){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1xD4UwMYHRU_jrx2HFi3MoXTdO0XaYMpU").into(ivimagen);
+                }else if (i == 8){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1Ax1vPJ3Ypr6vU6glhV9NI1Pskyk3WJ_C").into(ivimagen);
+                }else if (i == 9){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1TTgx1kWMNlxqF0_Uruagff6d7E60zQxZ").into(ivimagen);
+                }else if (i == 10){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1X7D-ntETdPtpTFncWw0b3tFpX5RkTM2d").into(ivimagen);
+                }else if (i == 11){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1HnHt1aTEBN95wAbFlwtryw8PeeWwQc3b").into(ivimagen);
+                }else if (i == 12){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1ru2vVnGn9bEjGsodCMFnjDbngiyJcxty").into(ivimagen);
+                }else if (i == 13){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1Spetg8A8BeyGWUAX6YiwpU8KroEjSpau").into(ivimagen);
+                }else if (i == 14){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1RzWmaJCZrJzxH0pK79rikx5exZ3C-fK0").into(ivimagen);
+                }else if (i == 15){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1yv3eAjaWLUTatVUEyRy-ZHMvmoShJ6-Z").into(ivimagen);
+                }else if (i == 16){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1PvV85BNh5v2iP-hQtLd9voxENRlsl8DN").into(ivimagen);
+                }else if (i == 17){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1X7e4O44Nq5uSTk1z3vOZ80FoDDNjE8S1").into(ivimagen);
+                }else if (i == 18){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1x4nEXz-gAOFcjuRAcJzSEGH5u8qgBL0i").into(ivimagen);
+                }else if (i == 19){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1Knm9xjmx7eJLIv1lR8BCy-80xIHwmTiB").into(ivimagen);
+                }else if (i == 20){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1FZ7hGATbnQAaMVVOfvv6xlJ81uWOZ0um").into(ivimagen);
+                }else if (i == 21){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1eh0eHh_YpJ9ybURbs_6HreMai3TDHB4Z").into(ivimagen);
+                }else if (i == 22){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1nn6m1pGExRP1XvJIFjUO4VnhinIgkmCy").into(ivimagen);
+                }else if (i == 23){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1SkxQ65vTQHN8vTIK_9TVxAMgVT-zBAjF").into(ivimagen);
+                }else if (i == 24){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1UgSKJt6G8ERTfoqkVvkTGaj-ZJAl2g7X").into(ivimagen);
+                }else if (i == 25){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1hZxu5z8g5nMPJZtyObb6EfBpvr5Sa1mg").into(ivimagen);
+                }else if (i == 26){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1VqNiBf7Eh25LtbJOiftz1_7Yzb_AO-8m").into(ivimagen);
+                }else if (i == 27){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1sfG06HvyYFX3TUwVWZvAchfzviVACxOx").into(ivimagen);
+                }else if (i == 28){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1xFO4eDKKz2aViUmf2EHf10kRijpDgNdM").into(ivimagen);
+                }else if (i == 29){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1L6ydZ6AQLDGS0NcKPSXtFQgnzEbtGe-3").into(ivimagen);
+                }else if (i == 30){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1HVO1EbmDZsiDF0kSK5kpf6V_38eMhm0i").into(ivimagen);
+                }else if (i == 31){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1rtpxVjHvjCfA6O6HyAjpDbtQ4LPPjT-L").into(ivimagen);
+                }else if (i == 32){
+                    Toast.makeText(PrincipalActivity.this, "Se selecciono:" + valor, Toast.LENGTH_SHORT).show();
+                    Glide.with(ivimagen).load("https://drive.google.com/uc?export=download&id=1K_rE_-kGkkKkmv_LX1qIiVp6uNaYLGNl").into(ivimagen);
                 }
             }
 
